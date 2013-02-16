@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" afterPath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java" afterPath="$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/HelloWorld.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361034703466" ignored="false" />
+    <file path="/HelloWorld.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361038656222" ignored="false" />
     <file path="/Dummy.txt" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361020004702" ignored="false" />
     <file path="/fragment.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361035109426" ignored="false" />
-    <file path="/HelloWorldTest.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361036864809" ignored="false" />
+    <file path="/HelloWorldTest.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361038897441" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +69,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HelloWorld.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="105" selection-end="105" vertical-scroll-proportion="0.096463025">
-              <folding />
+            <state line="22" column="38" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HelloWorldTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="436" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="62" column="83" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.8681672">
               <folding />
             </state>
           </provider>
@@ -125,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/PhraseService.java" />
-        <option value="$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java" />
       </list>
     </option>
   </component>
@@ -562,14 +565,18 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="45" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="3" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,16 +625,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="436" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="22" column="38" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="105" selection-end="105" vertical-scroll-proportion="0.096463025">
+        <state line="62" column="83" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.8681672">
           <folding />
         </state>
       </provider>
