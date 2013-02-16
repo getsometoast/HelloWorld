@@ -13,6 +13,6 @@ public class HelloWorld {
     }
 
     public String sayHelloWorld() {
-        return null;
+        return "Hello World";
     }
 }

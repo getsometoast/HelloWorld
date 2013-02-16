@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWorld.iml" afterPath="$PROJECT_DIR$/HelloWorld.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" afterPath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/HelloWorld.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361031716913" ignored="false" />
+    <file path="/HelloWorld.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361033442706" ignored="false" />
     <file path="/Dummy.txt" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361020004702" ignored="false" />
     <file path="/fragment.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361031465341" ignored="false" />
     <file path="/HelloWorldTest.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361033342136" ignored="false" />
@@ -74,7 +71,7 @@
       <file leaf-file-name="HelloWorld.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+            <state line="15" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="docComment;class#HelloWorld#0" expanded="false" />
               </folding>
@@ -85,7 +82,7 @@
       <file leaf-file-name="HelloWorldTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="308" selection-end="308" vertical-scroll-proportion="0.2652733">
+            <state line="13" column="41" selection-start="359" selection-end="359" vertical-scroll-proportion="0.31350482">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +108,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
       </list>
     </option>
   </component>
@@ -444,7 +441,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973032" sideWeight="0.6701031" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -540,15 +537,6 @@
         <state line="6" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.079617836" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="docComment;class#HelloWorld#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/junit/framework/Test.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="48" selection-start="250" selection-end="250" vertical-scroll-proportion="0.22613065">
@@ -563,9 +551,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;class#HelloWorld#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="308" selection-end="308" vertical-scroll-proportion="0.2652733">
+        <state line="13" column="41" selection-start="359" selection-end="359" vertical-scroll-proportion="0.31350482">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
