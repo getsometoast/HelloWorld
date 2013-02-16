@@ -3,17 +3,21 @@ package com.example.helloworld;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.*;
 
 public class HelloWorldTest {
 
-    private MockHelloWorldPhraseService mockPhraseService;
+    private final String EXPECTED_PHRASE = "Hello World";
+
+    private PhraseService mockPhraseService;
     private HelloWorld systemUnderTest;
 
     @Before
     public void createSystemUnderTest(){
-        mockPhraseService = new MockHelloWorldPhraseService();
+        mockPhraseService = mock(PhraseService.class);
         systemUnderTest = new HelloWorld(mockPhraseService);
+
+        when(mockPhraseService.sayPhrase()).thenReturn(EXPECTED_PHRASE);
     }
 
     @Test
@@ -21,7 +25,7 @@ public class HelloWorldTest {
 
         String result = systemUnderTest.sayHelloWorld();
 
-        assertEquals("Hello World", result);
+        assertEquals(EXPECTED_PHRASE, result);
     }
 
     @Test
@@ -29,7 +33,7 @@ public class HelloWorldTest {
 
         systemUnderTest.sayHelloWorld();
 
-        assertTrue(mockPhraseService.sayPhraseWasCalled());
+        verify(mockPhraseService).sayPhrase();
     }
 }
 
