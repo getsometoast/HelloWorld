@@ -1,5 +1,7 @@
-package com.example.helloworld;
+package com.example.helloworldtest;
 
+import com.example.helloworld.HelloWorld;
+import com.example.helloworld.PhraseService;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

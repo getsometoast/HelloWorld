@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_hamcrest_core_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWorld.iml" afterPath="$PROJECT_DIR$/HelloWorld.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" afterPath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" afterPath="$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java" afterPath="$PROJECT_DIR$/src/com/example/helloworldtest/MockHelloWorldPhraseService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/helloworld/PhraseService.java" afterPath="$PROJECT_DIR$/src/com/example/helloworld/PhraseService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWorld.iws" />
@@ -82,20 +81,27 @@
         </entry>
       </file>
       <file leaf-file-name="HelloWorldTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="69" selection-start="710" selection-end="710" vertical-scroll-proportion="0.6028939">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="18" column="35" selection-start="519" selection-end="519" vertical-scroll-proportion="0.31350482">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhraseService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/PhraseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MockHelloWorldPhraseService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/helloworldtest/MockHelloWorldPhraseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,6 +128,8 @@
         <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/helloworld/PhraseService.java" />
       </list>
     </option>
   </component>
@@ -192,6 +200,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworldtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -297,8 +331,8 @@
       <module name="HelloWorld" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="com.example.helloworld.HelloWorldTest" />
+      <option name="PACKAGE_NAME" value="com.example.helloworldtest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.helloworldtest.HelloWorldTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -573,9 +607,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/helloworldtest/MockHelloWorldPhraseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -587,12 +621,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/PhraseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="69" selection-start="710" selection-end="710" vertical-scroll-proportion="0.6028939">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="2" column="17" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/helloworldtest/HelloWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="519" selection-end="519" vertical-scroll-proportion="0.31350482">
+          <folding />
         </state>
       </provider>
     </entry>

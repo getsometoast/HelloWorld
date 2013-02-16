@@ -1,4 +1,6 @@
-package com.example.helloworld;
+package com.example.helloworldtest;
+
+import com.example.helloworld.PhraseService;
 
 public class MockHelloWorldPhraseService implements PhraseService {
 
