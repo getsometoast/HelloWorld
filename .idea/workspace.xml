@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" afterPath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/helloworld/PhraseService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" afterPath="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/HelloWorld.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361034703466" ignored="false" />
     <file path="/Dummy.txt" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361020004702" ignored="false" />
-    <file path="/fragment.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361031465341" ignored="false" />
-    <file path="/HelloWorldTest.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361034555975" ignored="false" />
+    <file path="/fragment.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361035109426" ignored="false" />
+    <file path="/HelloWorldTest.java" changelist="dba9fd3b-b9eb-4dfe-8439-4bcc1cd68fa0" time="1361035022587" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <file leaf-file-name="HelloWorldTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="59" selection-start="184" selection-end="184" vertical-scroll-proportion="0.1688103">
+            <state line="11" column="74" selection-start="300" selection-end="300" vertical-scroll-proportion="0.2652733">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +92,7 @@
       <file leaf-file-name="MockHelloWorldPhraseService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,8 +116,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java" />
       </list>
     </option>
@@ -225,6 +223,9 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.helloworld" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.helloworld" />
     </key>
   </component>
@@ -574,14 +575,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/MockHelloWorldPhraseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/helloworld/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="59" selection-start="184" selection-end="184" vertical-scroll-proportion="0.1688103">
+        <state line="11" column="74" selection-start="300" selection-end="300" vertical-scroll-proportion="0.2652733">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,15 +1,23 @@
 package com.example.helloworld;
 
+import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class HelloWorldTest {
+
+    private MockHelloWorldPhraseService mockPhraseService;
+    private HelloWorld systemUnderTest;
+
+    @Before
+    public void createSystemUnderTest(){
+        mockPhraseService = new MockHelloWorldPhraseService();
+        systemUnderTest = new HelloWorld(mockPhraseService);
+    }
+
     @Test
     public void should_return_hello_world_string() {
-
-        MockHelloWorldPhraseService phraseService = new MockHelloWorldPhraseService();
-        HelloWorld systemUnderTest = new HelloWorld(phraseService);
 
         String result = systemUnderTest.sayHelloWorld();
 
@@ -19,16 +27,9 @@ public class HelloWorldTest {
     @Test
     public void should_call_hello_world_phrase_service() {
 
-        MockHelloWorldPhraseService phraseService = new MockHelloWorldPhraseService();
-        HelloWorld systemUnderTest = new HelloWorld(phraseService);
+        systemUnderTest.sayHelloWorld();
 
-        String result = systemUnderTest.sayHelloWorld();
-
-        assertTrue(phraseService.sayPhraseWasCalled());
+        assertTrue(mockPhraseService.sayPhraseWasCalled());
     }
-}
-
-interface PhraseService{
-    String sayPhrase();
 }
 
