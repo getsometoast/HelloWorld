@@ -2,13 +2,13 @@ package com.example.helloworld;
 
 public class HelloWorld {
 
-    private final PhraseService _phraseService;
+    private final PhraseService phraseService;
 
     public HelloWorld(PhraseService phraseService) {
-        _phraseService = phraseService;
+        this.phraseService = phraseService;
     }
 
     public String sayHelloWorld() {
-        return _phraseService.sayPhrase();
+        return phraseService.sayPhrase();
     }
 }
